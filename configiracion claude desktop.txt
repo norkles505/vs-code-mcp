@@ -1,0 +1,863 @@
+{
+  "mcpServers": {
+    "vscode": {
+      "command": "vscode-mcp",
+      "env": {
+        "VSCODE_MCP_PORT": "9877"
+      }
+    },
+    "blender": {
+      "command": "C:\\Users\\HP\\.local\\bin\\blender-mcp.exe",
+      "args": []
+    }
+  },
+  "coworkUserFilesPath": "C:\\Users\\HP\\Claude",
+  "preferences": {
+    "coworkBrowserToolsEnabled": false,
+    "coworkPreferredBrowser": "built_in",
+    "launchPreviewPersistedWorkspaces": [],
+    "launchPreviewSessionScopedSessions": [],
+    "coworkLegacyRootGrantsPruned": true,
+    "coworkScheduledTasksEnabled": false,
+    "coworkHipaaRestricted": false,
+    "orgWorkAcrossAppsDisabled": true,
+    "ccdScheduledTasksEnabled": false,
+    "storeReadCacheLatched": true,
+    "windowsAppJobLatched": false,
+    "bypassPermissionsGateByAccount": {
+      "00457835-f1fc-443e-8bf3-b8a898e7ee09": false,
+      "48e1c4dd-08a2-45da-82be-c61813486902": false,
+      "1242af1f-6054-41c9-b457-428f722464a4": false,
+      "f0c80120-3a43-4618-811d-6c46b172c563": false,
+      "b9ed6246-6818-48ff-b3c6-b32ba3ed7324": false,
+      "a8ba0f61-d346-4109-b97c-265b18ca281e": false,
+      "a02e024f-08f4-4c71-8eea-20d24e7da86d": false,
+      "05618097-0a8e-4813-aace-a4093599a5c6": false,
+      "2b4ad41e-494c-4db2-9a52-326ba18b9ab5": false,
+      "96f597fc-fca9-4192-b0c3-c99b41104ae6": false,
+      "83e958fb-4720-4662-adf0-2902749cce1c": false,
+      "47d9a052-bd17-414b-9247-cc83c61ddda1": false,
+      "bd9b69a6-c906-44d8-ae61-70f1a335cc47": false,
+      "141dfdff-8bd9-4a04-b2a4-c6fc6c2022fe": false,
+      "83e741bf-c4cd-4e73-b487-4c6987999072": false,
+      "ee64cae9-7610-4b2f-9c1d-a52a2e1ac200": false
+    },
+    "coworkWebSearchEnabled": true,
+    "coworkModelAutoFallbackByAccount": {
+      "00457835-f1fc-443e-8bf3-b8a898e7ee09": true,
+      "48e1c4dd-08a2-45da-82be-c61813486902": true,
+      "1242af1f-6054-41c9-b457-428f722464a4": true,
+      "f0c80120-3a43-4618-811d-6c46b172c563": true,
+      "b9ed6246-6818-48ff-b3c6-b32ba3ed7324": true,
+      "a8ba0f61-d346-4109-b97c-265b18ca281e": true,
+      "a02e024f-08f4-4c71-8eea-20d24e7da86d": true,
+      "05618097-0a8e-4813-aace-a4093599a5c6": true,
+      "2b4ad41e-494c-4db2-9a52-326ba18b9ab5": true,
+      "96f597fc-fca9-4192-b0c3-c99b41104ae6": true,
+      "83e958fb-4720-4662-adf0-2902749cce1c": true,
+      "47d9a052-bd17-414b-9247-cc83c61ddda1": true,
+      "bd9b69a6-c906-44d8-ae61-70f1a335cc47": true,
+      "141dfdff-8bd9-4a04-b2a4-c6fc6c2022fe": true,
+      "83e741bf-c4cd-4e73-b487-4c6987999072": true,
+      "ee64cae9-7610-4b2f-9c1d-a52a2e1ac200": true
+    },
+    "remoteToolsDeviceName": "desktop-7d4b6gn",
+    "epitaxyPrefs": {
+      "starred-local-code-sessions": [],
+      "starred-cowork-spaces": [],
+      "starred-session-groups": [],
+      "dframe-group-scopes": {},
+      "dframe-local-slice": {
+        "pinnedOrder": [],
+        "homeProjectsPinnedOrder": []
+      },
+      "ccd-sessions-filter": {
+        "state": {
+          "selectedProjects": []
+        },
+        "version": 0
+      },
+      "desktop-frame.paneStore.v1": {
+        "state": {
+          "extraPanesByMode": {},
+          "colWeightsByMode": {},
+          "rowSplit": 0.5,
+          "draftNonce": 0,
+          "lastPrimaryCodeSession": null
+        },
+        "version": 4
+      },
+      "starred-local-routines": [],
+      "dframe-code-sections": {
+        "141dfdff-8bd9-4a04-b2a4-c6fc6c2022fe/136b6ef8-07b6-4f31-9372-23dab41d3681": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "47d9a052-bd17-414b-9247-cc83c61ddda1/57bc9a53-b89c-426f-954b-8e02ec890313": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "ee64cae9-7610-4b2f-9c1d-a52a2e1ac200/e0a67962-ed93-46c8-b4b6-06ac15787fdd": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "83e741bf-c4cd-4e73-b487-4c6987999072/e5faf282-e50c-4ec1-8cd9-3061814a7172": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "96f597fc-fca9-4192-b0c3-c99b41104ae6/de604d24-4c2e-47de-b5d3-72d69ab0d854": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "2b4ad41e-494c-4db2-9a52-326ba18b9ab5/1139da49-1c01-42f9-9dcb-6e1efe037e4a": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "05618097-0a8e-4813-aace-a4093599a5c6/16b80ca5-b53b-4a39-a6da-f61f7cc6f838": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "a02e024f-08f4-4c71-8eea-20d24e7da86d/ec1513ce-10a0-4b2f-8eb0-82b2b6b23847": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "bd9b69a6-c906-44d8-ae61-70f1a335cc47/0e99d979-1325-45e1-b55e-b92a0e37ec95": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "1242af1f-6054-41c9-b457-428f722464a4/04b8be0c-79d0-4097-844b-3c8775851ff8": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "48e1c4dd-08a2-45da-82be-c61813486902/a75693e8-2aef-494d-9bf3-2f9255fc9a7c": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "a8ba0f61-d346-4109-b97c-265b18ca281e/ef437abb-923b-48f4-ab4f-c7c8e4b82a74": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "b9ed6246-6818-48ff-b3c6-b32ba3ed7324/44560e39-6e55-44f4-a278-1c498e003726": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "00457835-f1fc-443e-8bf3-b8a898e7ee09/43be0e4a-0398-4d6a-8658-354868aab860": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "83e958fb-4720-4662-adf0-2902749cce1c/e44ca46a-df9d-457a-bd1c-57b8c2519920": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        },
+        "f0c80120-3a43-4618-811d-6c46b172c563/0e37cc6b-137c-48bc-8990-969617703a5f": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": true,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        }
+      }
+    }
+  }
+}

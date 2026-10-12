@@ -1,0 +1,2 @@
+[console_scripts]
+vscode-mcp = vscode_mcp.server:main
