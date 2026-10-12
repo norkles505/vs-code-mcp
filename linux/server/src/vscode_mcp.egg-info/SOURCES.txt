@@ -1,0 +1,9 @@
+pyproject.toml
+src/vscode_mcp/__init__.py
+src/vscode_mcp/server.py
+src/vscode_mcp.egg-info/PKG-INFO
+src/vscode_mcp.egg-info/SOURCES.txt
+src/vscode_mcp.egg-info/dependency_links.txt
+src/vscode_mcp.egg-info/entry_points.txt
+src/vscode_mcp.egg-info/requires.txt
+src/vscode_mcp.egg-info/top_level.txt

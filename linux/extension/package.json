@@ -1,0 +1,49 @@
+{
+  "name": "vscode-mcp-bridge",
+  "displayName": "VS Code MCP Bridge",
+  "description": "Puente TCP que expone el editor a un servidor MCP externo (Claude, etc.)",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscodeMcpBridge.start",
+        "title": "MCP Bridge: Iniciar servidor"
+      },
+      {
+        "command": "vscodeMcpBridge.stop",
+        "title": "MCP Bridge: Detener servidor"
+      }
+    ],
+    "configuration": {
+      "title": "VS Code MCP Bridge",
+      "properties": {
+        "vscodeMcpBridge.port": {
+          "type": "number",
+          "default": 9877,
+          "description": "Puerto TCP local donde escucha el bridge"
+        },
+        "vscodeMcpBridge.autoStart": {
+          "type": "boolean",
+          "default": true,
+          "description": "Iniciar el servidor automáticamente al abrir VS Code"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.4.0"
+  }
+}
