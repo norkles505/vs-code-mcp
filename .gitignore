@@ -1,0 +1,24 @@
+# Node / extension de VS Code (install.sh los regenera: npm install, compile y vsce package)
+node_modules/
+out/
+*.vsix
+
+# Python / servidor MCP
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+venv/
+.venv/
+
+# Editores / sistema
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Copias de seguridad, logs y temporales
+*.bak
+*.tmp
+*.log
